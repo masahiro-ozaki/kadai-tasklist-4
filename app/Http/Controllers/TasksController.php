@@ -117,7 +117,7 @@ class TasksController extends Controller
             return view('tasks.edit', [
                 'task' => $task,
             ]);
-            
+        } else {
            return redirect('/');
         }
 
